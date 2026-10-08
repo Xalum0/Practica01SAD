@@ -17,7 +17,7 @@ y el `issuer` de la CA son iguales y los de `ldap.crt` no?
 
 el issuer es: C = ES, O = SecureCorp, CN = Andres Root CA - Andres Colon
 la fecha de validad es: 7/10/2026-4/10/2036
-son distintos porque el `subject` identifica al servidor `ldap.securecorp.local`, mientras que el `issuer` identifica a la CA que firmó su certificado por otro lado la ca se autofirma y para si misma el `subject` y el `issuer` son si mismo.
+son distintos porque el `subject` identifica al servidor, mientras que el `issuer` identifica a quien firmó su certificado por otro lado la ca se autofirma y para si misma el `subject` y el `issuer` son si mismo.
 
 **2. (A3)** Pega el comando y el resultado de tus dos búsquedas:
 
